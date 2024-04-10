@@ -73,7 +73,6 @@
 			   <table id="example1" class="table table-bordered">
                     <thead>
                         <tr>
-						<td>ID</td>
 						<td>NOMBRES Y APELLIDOS</td>
 						<td>N° CEDULA</td>
 						<td>MODALIDAD</td>
@@ -87,12 +86,12 @@
                         if($conn->connect_error){
                             die("Connection failed" .$conn->connect_error);
                         }
-                           $sql ="SELECT * FROM attendance LEFT JOIN student ON attendance.STUDENTID=student.STUDENTID";
+                           $sql ="SELECT *  FROM attendance LEFT JOIN student ON attendance.STUDENTID=student.STUDENTID";
                            $query = $conn->query($sql);
                            while ($row = $query->fetch_assoc()){
                         ?>
                             <tr>
-								<td><?php echo $row['ID'];?></td>
+								
 								<td><?php echo $row['FIRSTNAME'];?></td>
                                 <td><?php echo $row['STUDENTID'];?></td>
 								<td><?php echo $row['MNAME'];?></td>
@@ -100,7 +99,7 @@
                                 
                             </tr>
                         <?php
-                        }
+                        };
                         ?>
                     </tbody>
                   </table>
