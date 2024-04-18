@@ -1,0 +1,6 @@
+
+.container {
+    height: 500px; /* Establecer la altura al valor deseado */
+    width: 100%; /* Establecer el ancho al 100% */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical */
+  }
