@@ -74,7 +74,7 @@
                     <thead>
                         <tr>
 						<td>NOMBRES Y APELLIDOS</td>
-						<td>N° CEDULA</td>
+						
 						<td>MODALIDAD</td>
 						<td>FECHA Y HORA</td>
                         </tr>
@@ -93,7 +93,7 @@
                             <tr>
 								
 								<td><?php echo $row['FIRSTNAME'];?></td>
-                                <td><?php echo $row['STUDENTID'];?></td>
+                                
 								<td><?php echo $row['MNAME'];?></td>
                                 <td><?php echo $row['DATATIMES'];?></td>
                                 

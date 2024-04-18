@@ -1,9 +1,9 @@
 <?php
     session_start();
     $server = "localhost";
-    $username="root";
-    $password="passwd2212+";
-    $dbname="qrcodedb2";
+    $username="webuser";
+    $password="passwd1nf4ntes2@23";
+    $dbname="webdata";
 
     $conn = new mysqli($server,$username,$password,$dbname);
 
