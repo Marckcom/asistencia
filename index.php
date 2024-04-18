@@ -36,26 +36,21 @@
 			<div class="row" >
 
 				<div class="col-md-6">
-					<h3 style="color:#fff">SISTEMA DE ASISTENCIA AL DIPLOMADO</h3>
+
 
 				</div>
 				<div class="col-md-6">
+				<h3 style="color:#fff">SISTEMA DE ASISTENCIA AL DIPLOMADO</h3>
 					<nav class="navbar navbar-default">
 						<div class="container-fluid">
-							<div class="navbar-header">
-								<a class="navbar-brand" href="#">ACADEMIA REPUBLICANA</a>
-							</div>
-	
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="attendance.php"> <span class="glyphicon glyphicon-calendar"></span>VER REGISTRO</a></li>
-							</ul>
 
-								<form action="TimeInOut.php" method="post" class="form-horizontal" style="border-radius: 5px;padding:10px;background:#fff;" id="divvideo">
-								<i class="glyphicon glyphicon-barcode"></i> <label>INGRESE SU NUMERO CEDULA SIN PUNTOS, NI ESPACIOS.</label>
+							<form action="TimeInOut.php" method="post" class="form-horizontal" style="border-radius: 5px;padding:10px;background:#fff;" id="divvideo">
+								<i class="#"></i> <label>INGRESE SU NUMERO CEDULA SIN PUNTOS, NI ESPACIOS.</label>
 								<p></p>
 								<input type="text" name="studentID" id="text" placeholder="5852111" class="form-control" autofocus>
 								<br>
-								<input type="submit" value="ENVIAR" class="btn btn-primary">
+								<input type="submit" value="ENVIAR" class="btn btn-primary" style="color:yellow; font-weight:bold;">  &nbsp;<a href="attendance.php" class="btn btn-primary" style="width:25%;">VER REGISTRO</a></p> 
+					</a> 
 							</form>
 						</div>
 					</nav>
